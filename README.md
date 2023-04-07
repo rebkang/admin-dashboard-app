@@ -1,6 +1,6 @@
 # Description
 
-A MERN React admin dashboard website that allows an admin user to see an overview of their shop.
+A MERN admin dashboard website that allows an admin user to see an overview of their shop, such as details of their products, customers, transactions, and sales in an admin dashboard.
 
 # Tech Stack
 
@@ -32,7 +32,7 @@ MONGO_URL = <url-to-your-mongo-db>
 PORT=5001
 ```
 
-4. Uncomment the part in `server/index.js` that talks about importing data. After the first run of the server, make sure to re-comment this.
+4. Uncomment the following section in `server/index.js` that talks about importing data. After the first run of the server, make sure to re-comment this.
 
 ```
 // AffiliateStat.insertMany(dataAffiliateStat);
@@ -52,7 +52,7 @@ PORT=5001
 7. Install the dependencies in the `client` file.
    `npm i`
 
-8. Open up two terminals and run these commands:
+8. Open two terminals and run these commands:
 
 ```
 cd server
