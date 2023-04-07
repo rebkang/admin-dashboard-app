@@ -44,13 +44,19 @@ PORT=5001
 ```
 
 5. Install the dependencies in the `server` file.
-   `npm i`
+
+   ```
+   npm i
+   ```
 
 6. Navigate to the `client` directory and create a `.env` file. Add the following:
    `REACT_APP_BASE_URL=http://localhost:5001`
 
 7. Install the dependencies in the `client` file.
-   `npm i`
+
+   ```
+   npm i
+   ```
 
 8. Open two terminals and run these commands:
 
